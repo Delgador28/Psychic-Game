@@ -6,7 +6,7 @@ In the Psychic Game, the user will go up against a computer in an amazing guessi
 
 User will begin by choosing a letter, that will show up on the "Guesses So Far:" column, if said user manages to think the same as the computer, and guesses the correct letter, the "Wins: " score will increase by one, else if user does not score and guess the same, "Losses: " will increase by one. Whenever a letter is input, "Guesses Left: " will increase by one, be careful! You only have 10 chances.. Once the user has reached the limit of 10, in either Wins or Losses, the game will reset itself and start blank.
 
-! [A quick shot of guessing in action.] (./assets/images/psychicgif.gif)
+![Quick Guess](images/psychicgif.gif)
 ### Prerequisites
 
 None, just have a computer..
