@@ -1,10 +1,86 @@
-#title {
-    font-size: 40px;
-    font-weight: bold;
-    color: blue;
+body {
+  background-image: url("../images/colorsgif.gif");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white
 }
 
+#title {
+      
+        font-family: 'Pacifico', cursive;
+        text-align: left;
+        color:#313131;
+        font-size:120px;
+        margin-top: 3%;
+        font-weight: bold;
+        -webkit-animation:colorchange 20s infinite alternate;
+        
+        
+      }
+  
+      @-webkit-keyframes colorchange {
+        0% {
+          
+          color: blue;
+        }
+        
+        10% {
+          
+          color: yellow;
+        }
+        
+        20% {
+          
+          color: hotpink;
+        }
+        
+        30% {
+          
+          color: mediumseagreen;
+        }
+        
+        40% {
+          
+          color: blue;
+        }
+        
+        50% {
+          
+          color: purple;
+        }
+        
+        60% {
+          
+          color: blueviolet;
+        }
+        
+        70% {
+          
+          color: greenyellow
+        }
+        80% {
+       
+          color: orange;
+        }
+        
+        90% {
+       
+          color: red;
+        }
+        
+        100% {
+          
+          color: pink;
+        }
+      }
+
+
 .Game {
-    text-align: center;
-    margin: 20%;
+    margin-top: 12%;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 40px;
 }
